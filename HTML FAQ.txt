@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EASY SOCIAL PACKS — FAQ</title>
+  <meta name="description" content="Frequently asked questions about EASY SOCIAL PACKS — delivery, usage rights, customization and more." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#fff;--muted:#6b7280;--accent:#0b6cff;--max-width:1000px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:var(--bg);color:#0f172a;line-height:1.45;font-size:15px}
+    .container{width:92%;max-width:var(--max-width);margin:0 auto;padding:20px 0}
+    header{position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(255,255,255,0.95);border-bottom:1px solid rgba(15,23,42,0.05);z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
+    .logo{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,#ffd166,#f97316);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#111827}
+    nav a{margin-left:10px;text-decoration:none;color:var(--muted);font-size:13px}
+    nav a.active{color:var(--accent);font-weight:700}
+    main{padding:24px 0}
+    .faq details{margin-bottom:8px;background:#f8fafc;padding:12px;border-radius:8px;border:1px solid rgba(15,23,42,0.03)}
+    footer{margin-top:20px;padding:18px 0;border-top:1px solid rgba(15,23,42,0.05);font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" style="display:flex;gap:8px;align-items:center;text-decoration:none;color:inherit">
+        <div class="logo">ESP</div>
+        <div><strong style="font-size:14px;">EASY SOCIAL PACKS</strong><br><span style="font-size:12px;color:var(--muted)">Captions, images & videos</span></div>
+      </a>
+
+      <div style="display:flex;align-items:center;">
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+        <a class="btn" style="margin-left:10px;display:inline-block;background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">DM Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 style="font-size:22px;margin-bottom:8px">Frequently asked questions</h1>
+      <p style="color:var(--muted);margin-bottom:12px">Quick answers — DM us if you need more details or custom terms.</p>
+
+      <section class="faq" aria-label="FAQ list">
+        <details>
+          <summary><strong>How do I receive the pack?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">After you DM us (link above), we deliver a downloadable pack via email or direct link. You can choose platform options during purchase.</div>
+        </details>
+
+        <details>
+          <summary><strong>Can I customize captions or images?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">Yes—images are editable files (PSD/PNG) and captions are plain text so you can tweak them. Pro packages include one round of caption tweaks.</div>
+        </details>
+
+        <details>
+          <summary><strong>Are these rights-free to use?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">Yes. Files included are cleared for commercial use for the purchaser. We include simple attribution guidance where required. DM for full terms.</div>
+        </details>
+
+        <details>
+          <summary><strong>Do you offer subscriptions or bulk discounts?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">Yes. We offer recurring packs and bulk discounts. DM to discuss a tailored plan for teams or agencies.</div>
+        </details>
+
+        <details>
+          <summary><strong>What platforms are supported?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">Packs are prepared for Instagram, Facebook, TikTok, and WhatsApp. We provide platform-specific caption and sizing guidance.</div>
+        </details>
+
+        <details>
+          <summary><strong>Can I request a refund?</strong></summary>
+          <div style="margin-top:8px;color:var(--muted)">Refunds are handled on a case-by-case basis. Please DM with order details and we'll work to resolve it.</div>
+        </details>
+      </section>
+
+      <section style="margin-top:16px">
+        <h2 style="font-size:18px;margin-bottom:6px">Still have questions?</h2>
+        <p style="color:var(--muted);margin-bottom:8px">DM us and we'll reply quickly with exact deliverables and sample previews.</p>
+        <a style="display:inline-block;padding:8px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">DM Now</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <div><strong>EASY SOCIAL PACKS</strong></div>
+      <div>© <span id="year"></span> — All rights reserved</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function(){
+      const navLinks = document.querySelectorAll('nav a');
+      const current = location.pathname.split('/').pop() || 'index.html';
+      navLinks.forEach(a => { if(a.getAttribute('href') === current) a.classList.add('active'); });
+    })();
+  </script>
+</body>
+</html>

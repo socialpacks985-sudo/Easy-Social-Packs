@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EASY SOCIAL PACKS — Home</title>
+  <meta name="description" content="Pre-made captions, images & short videos for busy business owners. Ready-to-post social content." />
+  <meta property="og:title" content="EASY SOCIAL PACKS — Ready-to-Use Social Content" />
+  <meta property="og:description" content="Pre-made captions, curated images, and promo videos to help small businesses post consistently and grow online." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=EASY+SOCIAL+PACKS" />
+  <meta name="theme-color" content="#0b6cff" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#fff; --muted:#6b7280; --accent:#0b6cff; --card-bg:#f8fafc;
+      --max-width:1000px; --shadow:0 4px 16px rgba(10,20,50,0.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:var(--bg);color:#0f172a;line-height:1.4;font-size:15px}
+    .container{width:92%;max-width:var(--max-width);margin:0 auto;padding:20px 0}
+    header{position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(255,255,255,0.95);border-bottom:1px solid rgba(15,23,42,0.05);z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
+    .brand{display:flex;gap:8px;align-items:center;text-decoration:none;color:inherit}
+    .logo{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,#ffd166,#f97316);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#111827;box-shadow:var(--shadow)}
+    nav a{margin-left:10px;text-decoration:none;color:var(--muted);font-size:13px}
+    nav a.active{color:var(--accent);font-weight:700}
+    .btn{background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 6px 14px rgba(11,108,255,0.14);transition:all .12s ease}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(11,108,255,0.18)}
+    main{padding:24px 0}
+    .hero{text-align:center;max-width:700px;margin:0 auto;padding:28px 12px}
+    .eyebrow{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+    .headline{font-size:28px;line-height:1.15;margin:8px 0 10px;font-weight:800;color:#08142a}
+    .subhead{font-size:15px;color:var(--muted);margin-bottom:18px;max-width:55ch;margin-left:auto;margin-right:auto}
+    .grid-2{display:grid;gap:12px;margin-top:16px;text-align:left}
+    .feature-card{background:var(--card-bg);padding:14px;border-radius:10px;box-shadow:0 4px 14px rgba(10,20,50,0.05);font-size:14px}
+    .top10{margin-top:18px;display:grid;gap:10px}
+    .caption-block{display:flex;gap:12px;align-items:flex-start;padding:12px;border-radius:10px;background:#0b6cff10;border:1px dashed rgba(11,108,255,0.12)}
+    .caption-text{flex:1;white-space:pre-wrap;font-family:inherit;color:#073463}
+    .copy-btn{background:white;border-radius:8px;border:1px solid rgba(15,23,42,0.06);padding:8px 12px;cursor:pointer;font-weight:600}
+    .copy-status{font-size:13px;color:var(--muted);margin-top:8px}
+    .testimonials{display:grid;gap:12px;margin-top:12px}
+    .testimonial{background:linear-gradient(180deg,#fff,#fbfdff);padding:12px;border-radius:10px;border:1px solid rgba(11,108,255,0.06)}
+    footer{margin-top:20px;padding:18px 0;border-top:1px solid rgba(15,23,42,0.05);font-size:13px;color:var(--muted)}
+    @media(min-width:720px){ .grid-2{grid-template-columns:1fr 1fr} .headline{font-size:32px} .subhead{font-size:16px} .testimonials{grid-template-columns:repeat(3,1fr)} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <div class="logo">ESP</div>
+        <div>
+          <strong style="font-size:14px;">EASY SOCIAL PACKS</strong><br>
+          <span style="font-size:12px;color:var(--muted)">Captions, images & videos</span>
+        </div>
+      </a>
+
+      <div style="display:flex;align-items:center;">
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+        <a class="btn" style="margin-left:10px" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">DM Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="eyebrow">Save time • Post consistently • Grow faster</div>
+        <h1 id="hero-heading" class="headline">Pre-made captions, images & short videos for busy business owners</h1>
+        <p class="subhead">EASY SOCIAL PACKS gives you ready-to-post content so you can focus on your business while we handle the content creation.</p>
+        <div style="display:flex;gap:10px;justify-content:center;margin-bottom:12px;">
+          <a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Get Instant Pack</a>
+          <a class="btn" href="pricing.html" style="background:#eef6ff;color:var(--accent);box-shadow:none;border:1px solid rgba(11,108,255,0.08)">See Packs</a>
+        </div>
+
+        <!-- Feature cards -->
+        <div class="grid-2" aria-hidden="false">
+          <div class="feature-card">
+            <strong>What's included</strong>
+            <ul style="margin:8px 0 0 18px">
+              <li>Pre-written, optimized captions with CTAs</li>
+              <li>Editable, curated images & mockups</li>
+              <li>Short promo videos (15–30s) optimized per platform</li>
+            </ul>
+          </div>
+          <div class="feature-card">
+            <strong>Why it works</strong>
+            <p style="margin-top:6px">Designed for solopreneurs and small teams — consistent posts, clear CTAs, and platform-ready content that saves hours every week.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top 10 -->
+      <section id="top10" style="margin-top:18px;">
+        <h2 style="font-size:18px;margin-bottom:8px">Top 10 ways to gain visibility</h2>
+        <div class="top10">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+            <ul style="margin:0 8px 0 18px;color:var(--muted)">
+              <li><strong>Post consistently</strong></li>
+              <li><strong>Hook in 3 seconds</strong></li>
+              <li><strong>Repurpose content</strong></li>
+              <li><strong>Use platform features</strong></li>
+              <li><strong>Engage first</strong></li>
+            </ul>
+            <ul style="margin:0 8px 0 18px;color:var(--muted)">
+              <li><strong>Customize for platform</strong></li>
+              <li><strong>Clear CTAs</strong></li>
+              <li><strong>Hashtags & keywords</strong></li>
+              <li><strong>Collaborate</strong></li>
+              <li><strong>Track & iterate</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Example caption -->
+      <section style="margin-top:18px;">
+        <h2 style="font-size:18px;margin-bottom:8px">Example caption — copy & paste</h2>
+        <div class="caption-block" role="region" aria-label="Example caption">
+          <div class="caption-text" id="captionText" tabindex="0">
+Hey small business owner 👋
+
+Sell more without spending hours on content.
+✨ Feature: {Product/Service Highlight}
+💡 Tip: Quick benefit + one-line proof
+🔥 CTA: DM "INTERESTED" to get a ready-to-post pack
+
+#smallbusiness #marketing #readytopost
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:flex-end">
+            <button class="copy-btn" id="copyBtn" aria-controls="captionText">Copy</button>
+            <div id="copyStatus" class="copy-status" role="status" aria-live="polite">Ready to copy</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section style="margin-top:18px;">
+        <h2 style="font-size:18px;margin-bottom:8px">What early customers say</h2>
+        <div class="testimonials" aria-live="polite">
+          <div class="testimonial"><strong>Olivia — Cafe owner</strong><p style="margin-top:6px">"I used to stare at a blank screen for hours. With EASY SOCIAL PACKS I post 3x a week and my engagement doubled in two weeks."</p></div>
+          <div class="testimonial"><strong>Sam — Fitness coach</strong><p style="margin-top:6px">"The captions are gold — clear CTAs and quick to personalize. Saved me so much time."</p></div>
+          <div class="testimonial"><strong>Amara — Boutique owner</strong><p style="margin-top:6px">"Love the videos. They look premium and customers DM faster after posting them."</p></div>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section style="margin-top:20px;text-align:center;">
+        <h3 style="margin-bottom:8px">Ready to stop stressing about content?</h3>
+        <p style="color:var(--muted);margin-bottom:12px">Click the link to DM for instant access and a friendly onboarding message.</p>
+        <a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Click the link to DM</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <div><strong>EASY SOCIAL PACKS</strong></div>
+      <div>© <span id="year"></span> — All rights reserved</div>
+    </div>
+  </footer>
+
+  <script>
+    // Year + active nav highlight
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Nav active link
+    (function(){
+      const navLinks = document.querySelectorAll('nav a');
+      const current = location.pathname.split('/').pop() || 'index.html';
+      navLinks.forEach(a => {
+        const href = a.getAttribute('href') || '';
+        if(href === current || (href === 'index.html' && current==='')) a.classList.add('active');
+        if(href === current) a.classList.add('active');
+      });
+    })();
+
+    // Copy to clipboard for caption
+    (function(){
+      const copyBtn = document.getElementById('copyBtn');
+      const caption = document.getElementById('captionText');
+      const status = document.getElementById('copyStatus');
+      function setStatus(msg, transient){
+        status.textContent = msg;
+        if(transient) setTimeout(()=>status.textContent='Ready to copy',2000);
+      }
+      copyBtn.addEventListener('click', async function(){
+        const text = caption.innerText.trim();
+        try{
+          if(navigator.clipboard && navigator.clipboard.writeText){
+            await navigator.clipboard.writeText(text);
+          } else {
+            const ta = document.createElement('textarea');
+            ta.value = text; ta.setAttribute('readonly',''); ta.style.position='absolute'; ta.style.left='-9999px';
+            document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+          }
+          setStatus('Copied to clipboard ✔', true);
+        } catch(e){ setStatus('Copy failed — select and copy manually', true); }
+      });
+    })();
+  </script>
+</body>
+</html>

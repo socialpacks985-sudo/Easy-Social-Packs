@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EASY SOCIAL PACKS — Pricing</title>
+  <meta name="description" content="Pricing and package details for EASY SOCIAL PACKS. Choose the pack that fits your business." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#fff;--muted:#6b7280;--accent:#0b6cff;--card-bg:#f8fafc;--max-width:1000px;--shadow:0 4px 16px rgba(10,20,50,0.08)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:var(--bg);color:#0f172a;line-height:1.4;font-size:15px}
+    .container{width:92%;max-width:var(--max-width);margin:0 auto;padding:20px 0}
+    header{position:sticky;top:0;backdrop-filter:blur(6px);background:rgba(255,255,255,0.95);border-bottom:1px solid rgba(15,23,42,0.05);z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
+    .brand{display:flex;gap:8px;align-items:center;text-decoration:none;color:inherit}
+    .logo{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,#ffd166,#f97316);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;color:#111827;box-shadow:var(--shadow)}
+    nav a{margin-left:10px;text-decoration:none;color:var(--muted);font-size:13px}
+    nav a.active{color:var(--accent);font-weight:700}
+    .btn{background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;box-shadow:0 6px 14px rgba(11,108,255,0.14);transition:all .12s ease}
+    main{padding:24px 0}
+    .pricing-grid{display:grid;gap:12px;margin-top:12px}
+    .tier{background:white;border-radius:10px;padding:16px;border:1px solid rgba(15,23,42,0.04);box-shadow:var(--shadow)}
+    .tier h3{margin:0 0 6px}
+    .price{font-size:20px;font-weight:800;margin:6px 0}
+    .benefits{color:var(--muted);font-size:14px}
+    footer{margin-top:20px;padding:18px 0;border-top:1px solid rgba(15,23,42,0.05);font-size:13px;color:var(--muted)}
+    @media(min-width:720px){ .pricing-grid{grid-template-columns:repeat(3,1fr)} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <div class="logo">ESP</div>
+        <div><strong style="font-size:14px;">EASY SOCIAL PACKS</strong><br><span style="font-size:12px;color:var(--muted)">Captions, images & videos</span></div>
+      </a>
+      <div style="display:flex;align-items:center;">
+        <nav aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+        <a class="btn" style="margin-left:10px" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">DM Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 style="font-size:24px;margin-bottom:8px">Pricing & Packages</h1>
+      <p style="color:var(--muted);margin-bottom:12px">Simple tiers to match your growth stage. DM us for custom or subscription plans.</p>
+
+      <div class="pricing-grid" aria-label="Pricing grid">
+        <div class="tier" role="article" aria-labelledby="starter">
+          <h3 id="starter">Starter</h3>
+          <div class="price">$19 / pack</div>
+          <div class="benefits">Best for solopreneurs testing social posting</div>
+          <ul style="margin:10px 0 0 18px">
+            <li>10 captions + 10 images</li>
+            <li>1 short video</li>
+            <li>Single-platform variations</li>
+          </ul>
+          <div style="margin-top:12px"><a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Get Starter</a></div>
+        </div>
+
+        <div class="tier" role="article" aria-labelledby="growth">
+          <h3 id="growth">Growth</h3>
+          <div class="price">$49 / pack</div>
+          <div class="benefits">For small teams ready to scale</div>
+          <ul style="margin:10px 0 0 18px">
+            <li>30 captions + 30 images</li>
+            <li>3 short videos</li>
+            <li>IG + Facebook optimized</li>
+            <li>Basic customization guide</li>
+          </ul>
+          <div style="margin-top:12px"><a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Get Growth</a></div>
+        </div>
+
+        <div class="tier" role="article" aria-labelledby="pro">
+          <h3 id="pro">Pro</h3>
+          <div class="price">$99 / pack</div>
+          <div class="benefits">Full content bundles for consistent growth</div>
+          <ul style="margin:10px 0 0 18px">
+            <li>60 captions + 60 images</li>
+            <li>6 short videos</li>
+            <li>All-platform packs (IG, FB, TikTok, WhatsApp)</li>
+            <li>1 round of caption tweaks</li>
+          </ul>
+          <div style="margin-top:12px"><a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Get Pro</a></div>
+        </div>
+      </div>
+
+      <section style="margin-top:18px">
+        <h2 style="font-size:18px;margin-bottom:6px">Need a custom pack or subscription?</h2>
+        <p style="color:var(--muted);margin-bottom:8px">DM us to discuss bulk pricing, recurring packs, or a tailored plan for your team.</p>
+        <a class="btn" href="https://t.me/eaaylife365" target="_blank" rel="noopener noreferrer">Contact for custom plan</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <div><strong>EASY SOCIAL PACKS</strong></div>
+      <div>© <span id="year"></span> — All rights reserved</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    (function(){
+      const navLinks = document.querySelectorAll('nav a');
+      const current = location.pathname.split('/').pop() || 'index.html';
+      navLinks.forEach(a => {
+        if(a.getAttribute('href') === current) a.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>
